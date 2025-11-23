@@ -1,8 +1,10 @@
 import {auth, db} from "../app.js";
 import {createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut}
-    from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
+    from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import {collection, addDoc, onSnapshot}
-    from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
+    from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+console.log("hello world");
 
 // Login
 document.getElementById("loginBtn").onclick = async () => {
