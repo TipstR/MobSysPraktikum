@@ -66,8 +66,9 @@ onSnapshot(collection(db, "messages"), (snapshot) => {
     const list = document.getElementById("list");
     list.innerHTML = "";
 
-    snapshot.forEach((doc) => {
-        const data = doc.data();
-        list.innerHTML += `<p>${data.text}</p>`;
-    });
-});
+// Test function for testing the tests :)
+export function helloWorld() {
+    return 'Hello World!';
+}
+
+// This line is new
