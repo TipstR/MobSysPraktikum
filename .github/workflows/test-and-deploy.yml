@@ -3,7 +3,7 @@ name: Release to Main and Deploy
 on:
   push:
     branches:
-    - release
+    - rel
 
 jobs:
   # Test released
